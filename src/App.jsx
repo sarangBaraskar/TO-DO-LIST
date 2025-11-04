@@ -2,7 +2,7 @@
 import './App.css'
 import { ToastContainer } from 'react-toastify'
 import { Route, Routes } from 'react-router'
-import Todopage from './pages/todopage'
+import Pages from './pages/Pages'
 
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Todopage/>}/>
+        <Route path="/" element={<Pages/>}/>
       </Routes>
       <ToastContainer />
 

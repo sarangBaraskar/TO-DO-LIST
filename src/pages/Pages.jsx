@@ -5,7 +5,7 @@ import Todoiteams from '../component/Todoiteams';
 
 
 
-export default function todopage() {
+export default function Pages() {
     const [list, setlist] = useState([]);
     const [filtered, setfiltered] = useState([]);
     const [isonFiltered, setIsfilteron] = useState(false)
