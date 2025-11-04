@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Todopage />}/>
+        <Route path="/" element={<Todopage/>}/>
       </Routes>
       <ToastContainer />
 
