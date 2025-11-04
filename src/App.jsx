@@ -2,7 +2,7 @@
 import './App.css'
 import { ToastContainer } from 'react-toastify'
 import { Route, Routes } from 'react-router'
-import Todoform from './component/Todoform'
+import Todopage from './pages/todopage'
 
 function App() {
 
@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Todoform/>}/>
+        <Route path="/" element={<Todopage/>}/>
       </Routes>
       <ToastContainer />
 
